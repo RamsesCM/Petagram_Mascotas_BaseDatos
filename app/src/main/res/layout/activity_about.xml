@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.ActivityContacto">
+
+    <include android:id="@+id/miActionBar2"
+        layout="@layout/actionbar2">
+    </include>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical"
+        android:padding="@dimen/paddingEmail"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nombreDesarrollador"
+            android:text="Nombre del desarrollador: Radames Ayram Castro Maldonado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/name_project"
+            android:layout_marginBottom="@dimen/margin_app"/>
+
+        <TextView
+            android:id="@+id/descripcionDesarrollador"
+            android:text="Descripción: \nMe encanta la música de José Madero, su estilo
+        único y letras profundas siempre me han gustado mucho. Además, soy un gran
+        aficionado a los videojuegos, tanto multijugador como solitarios. Pasar tiempo
+        en línea con amigos o sumergirme en un mundo de fantasía para disfrutar de una
+        experiencia en solitario es una de mis formas favoritas de relajarme después de
+        un largo día."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/name_project"
+            android:layout_marginBottom="@dimen/margin_app"/>
+
+        <TextView
+            android:id="@+id/contactoDesarrollador"
+            android:text="Contacto: trabajosrada@gmail.com"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/name_project"
+            android:layout_marginBottom="@dimen/margin_app"/>
+
+    </LinearLayout>
+
+</LinearLayout>

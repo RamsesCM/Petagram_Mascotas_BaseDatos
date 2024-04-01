@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_app">10dp</dimen>
+    <dimen name="elevacion_actinbar">4dp</dimen>
+    <dimen name="name_project">18sp</dimen>
+    <dimen name="margin_icon">85dp</dimen>
+    <dimen name="width_image">50dp</dimen>
+    <dimen name="margin_text">75dp</dimen>
+    <dimen name="corner_radius_cv">4dp</dimen>
+    <dimen name="img_btn">40dp</dimen>
+    <dimen name="nombreMascota">20dp</dimen>
+    <dimen name="numeroLikes">30dp</dimen>
+    <dimen name="marginImagen">5dp</dimen>
+    <dimen name="imgMascota">400dp</dimen>
+    <dimen name="paddingEmail">30dp</dimen>
+    <dimen name="roundedImg">200dp</dimen>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Petagram Pets</string>
+    <string name="numero_likes">10</string>
+    <string name="textoContacto">Contact</string>
+    <string name="textoAcercaDe">About</string>
+
+    <string name="nombre">Name</string>
+    <string name="correo">Email</string>
+    <string name="mensaje">Message</string>
+    <string name="txt_btn">Send email</string>
+</resources>

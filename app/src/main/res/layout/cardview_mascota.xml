@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvMascota"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_app"
+    app:cardCornerRadius="@dimen/corner_radius_cv">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border_background"
+        android:padding="@dimen/corner_radius_cv">
+
+        <ImageView
+            android:id="@+id/imgMascota"
+            android:layout_width="@dimen/imgMascota"
+            android:layout_height="@dimen/imgMascota"
+            android:layout_marginBottom="@dimen/marginImagen"
+            android:src="@drawable/p1" />
+
+        <LinearLayout
+            android:id="@+id/llBotonesTexto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgMascota"
+            android:orientation="vertical">
+
+            <!-- Botones -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/design_default_color_primary"
+                tools:ignore="UselessParent">
+
+                <!-- Primer botón -->
+                <ImageButton
+                    android:id="@+id/btn_like"
+                    android:layout_width="@dimen/img_btn"
+                    android:layout_height="@dimen/img_btn"
+                    android:layout_marginRight="@dimen/name_project"
+                    android:background="@drawable/hueso_btn"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/tvNombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/nombreMascota"/>
+
+                <!-- Contenedor para tvLikes e imgLikes -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:orientation="horizontal">
+
+                    <!-- tvLikes -->
+                    <TextView
+                        android:id="@+id/tvLikes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/numero_likes"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/numeroLikes"/>
+
+                    <!-- imgLikes -->
+                    <ImageView
+                        android:id="@+id/imgLikes"
+                        android:layout_width="@dimen/img_btn"
+                        android:layout_height="@dimen/img_btn"
+                        android:background="@drawable/hueso_like"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

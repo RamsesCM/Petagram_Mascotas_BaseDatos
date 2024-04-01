@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Petagram Mascotas</string>
+    <string name="numero_likes">10</string>
+    <string name="textoContacto">Contacto</string>
+    <string name="textoAcercaDe">Acerca de</string>
+
+    <string name="nombre">Nombre</string>
+    <string name="correo">Correo</string>
+    <string name="mensaje">Mensaje</string>
+    <string name="txt_btn">Enviar correo</string>
+</resources>

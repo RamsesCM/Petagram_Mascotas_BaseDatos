@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvMascota"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_app"
+    app:cardCornerRadius="@dimen/corner_radius_cv">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/border_background"
+        android:padding="@dimen/corner_radius_cv">
+
+        <ImageView
+            android:id="@+id/imgMascotaMiMascota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginImagen"
+            android:src="@drawable/p1" />
+
+        <LinearLayout
+            android:id="@+id/llBotonesTexto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:background="@color/design_default_color_primary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvLikesMiMascota"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/numero_likes"
+                android:textStyle="bold"
+                android:textSize="@dimen/numeroLikes" />
+
+            <ImageView
+                android:id="@+id/imgLikesMiMascota"
+                android:layout_width="@dimen/img_btn"
+                android:layout_height="@dimen/img_btn"
+                android:background="@drawable/hueso_like" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
